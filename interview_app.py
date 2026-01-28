@@ -143,12 +143,7 @@ if st.session_state.questions:
         st.info(f"Final Score Calculated: {round(final_score, 2)}")
 
 
-        st.markdown("### 📊 Next Step")
-        st.markdown(
-    "[👉 Go to Ranking Dashboard](http://localhost:8501/?page=ranking)",
-    unsafe_allow_html=True
-)
-
+    
 
         # ================== TOPIC-WISE BREAKDOWN ==================
         st.divider()
@@ -204,6 +199,7 @@ try:
 
 except FileNotFoundError:
     st.info("No interview history available yet.")
+
 
 
 

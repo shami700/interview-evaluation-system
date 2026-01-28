@@ -142,13 +142,14 @@ if st.session_state.questions:
         st.success("🎉 Interview Completed Successfully")
         st.info(f"Final Score Calculated: {round(final_score, 2)}")
 
+        # ================== NEXT STEP ==================
+        st.divider()
+        st.subheader("➡️ Next Step")
 
-        st.markdown("### 📊 Next Step")
         st.markdown(
-    "[👉 Go to Ranking Dashboard](http://localhost:8501/?page=ranking)",
-    unsafe_allow_html=True
-)
-
+            "[👉 Go to Ranking Dashboard](https://YOUR-RANKING-APP-URL)",
+            unsafe_allow_html=True
+        )
 
         # ================== TOPIC-WISE BREAKDOWN ==================
         st.divider()
@@ -160,13 +161,6 @@ if st.session_state.questions:
         })
 
         st.bar_chart(topic_df.set_index("Topic"))
-st.divider()
-st.subheader("➡️ Next Step")
-
-st.markdown(
-    "[👉 Go to Ranking Dashboard](http://localhost:8502)",
-    unsafe_allow_html=True
-)
 
 # ================== INTERVIEW HISTORY VIEWER ==================
 st.divider()
@@ -175,7 +169,6 @@ st.subheader("📂 Interview History Viewer")
 try:
     history_df = pd.read_csv("all_interview_results.csv")
 
-    # If old CSV does not have Interviewer_Notes
     if "Interviewer_Notes" not in history_df.columns:
         history_df["Interviewer_Notes"] = ""
 
@@ -187,6 +180,3 @@ try:
 
 except FileNotFoundError:
     st.info("No interview history available yet.")
-
-
-

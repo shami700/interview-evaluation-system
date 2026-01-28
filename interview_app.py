@@ -145,7 +145,7 @@ if st.session_state.questions:
 
         st.markdown("### 📊 Next Step")
         st.markdown(
-    "[👉 Go to Ranking Dashboard](https://interview-evaluation-system2.streamlit.app/)",
+    "[👉 Go to Ranking Dashboard](http://localhost:8501/?page=ranking)",
     unsafe_allow_html=True
 )
 
@@ -164,9 +164,26 @@ st.divider()
 st.subheader("➡️ Next Step")
 
 st.markdown(
-    "[👉 Go to Ranking Dashboard](http://localhost:8502)",
+    "[👉 Go to Ranking Dashboard](https://interview-evaluation-system2.streamlit.app/)",
     unsafe_allow_html=True
 )
+
+
+st.divider()
+st.subheader("🧹 Interview History Controls")
+
+if st.button("🗑️ Clear Interview History"):
+    empty_df = pd.DataFrame(columns=[
+        "Student_ID",
+        "Student_Name",
+        "Role",
+        "Final_Score",
+        "Interviewer_Notes"
+    ])
+    empty_df.to_csv("all_interview_results.csv", index=False)
+    st.success("Interview history cleared successfully. Refresh to see changes.")
+
+
 
 # ================== INTERVIEW HISTORY VIEWER ==================
 st.divider()
@@ -187,7 +204,6 @@ try:
 
 except FileNotFoundError:
     st.info("No interview history available yet.")
-
 
 
 

@@ -1,20 +1,2 @@
 Student_ID,Final_Score,ML_Decision,Role,Student_Name,Interviewer_Notes
-S01,82.5,Shortlist,,,
-S02,71.0,Waitlist,,,
-S03,90.2,Shortlist,,,
-S04,65.4,Waitlist,,,
-2341001117,92.5,0.0,Frontend Developer,,
-2341001117,92.5,0.0,Frontend Developer,,
-01,85.0,0.0,Frontend Developer,,
-02,62.5,0.0,Frontend Developer,,
-1,35.0,0.0,Frontend Developer,,
-2,57.5,0.0,Frontend Developer,,
-1,22.5,0.0,Frontend Developer,,
-2,15.0,,Frontend Developer,,
-112,100.0,,Frontend Developer,Shami,
-101,85.0,,Frontend Developer,md shami,
-1125,50.0,,Frontend Developer,ALY,
-700,57.5,,Frontend Developer,Amul,
-45,62.5,,Frontend Developer,PRATPYUSH,GOOD CANDIDATE
-555,65.0,,Data Scientist,ankit,good
-2341016359,70.0,,AI/ML Engineer,Anurag Pradhan,good candidate
+

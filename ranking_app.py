@@ -69,12 +69,18 @@ st.divider()
 st.subheader("🎯 Generate Final Shortlist")
 
 max_students = len(df_sorted)
+
+if max_students == 0:
+    st.warning("No interview data available. Please conduct interviews first.")
+    st.stop()
+
 top_n = st.slider(
     "Select number of students to shortlist (Top-N)",
     min_value=1,
     max_value=max_students,
     value=min(10, max_students)
 )
+
 
 shortlist_df = df_sorted.head(top_n)
 
@@ -98,3 +104,4 @@ st.download_button(
     file_name="final_shortlist.csv",
     mime="text/csv"
 )
+

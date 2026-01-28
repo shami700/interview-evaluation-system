@@ -1,0 +1,66 @@
+Topic,Question
+Frontend,What is virtual DOM?
+Frontend,Explain CSS box model
+Frontend,What are React hooks?
+Frontend,What is CORS?
+Frontend,Difference between let var const?
+
+Backend,What is REST API?
+Backend,Explain MVC architecture
+Backend,What is middleware?
+Backend,How authentication works?
+Backend,What is JWT?
+
+Database,What is normalization?
+Database,Difference between SQL and NoSQL
+Database,What is indexing?
+Database,What is ACID?
+Database,What is foreign key?
+
+Python,What are decorators?
+Python,Explain list comprehension
+Python,What is GIL?
+Python,What are generators?
+Python,Explain lambda functions
+
+Java,What is JVM?
+Java,Explain OOP concepts
+Java,What is garbage collection?
+Java,What is multithreading?
+Java,Difference between interface and abstract class?
+
+Machine Learning,What is overfitting?
+Machine Learning,Explain supervised learning
+Machine Learning,What is bias variance tradeoff?
+Machine Learning,Explain linear regression
+Machine Learning,What is cross validation?
+
+Deep Learning,What is CNN?
+Deep Learning,What is backpropagation?
+Deep Learning,Explain RNN
+Deep Learning,What is activation function?
+Deep Learning,What is vanishing gradient?
+
+DevOps,What is CI/CD?
+DevOps,What is Docker?
+DevOps,What is Kubernetes?
+DevOps,What is Jenkins?
+DevOps,Infrastructure as Code?
+
+Cloud,What is AWS EC2?
+Cloud,What is cloud scalability?
+Cloud,Explain IaaS PaaS SaaS
+Cloud,What is load balancing?
+Cloud,What is cloud security?
+
+DSA,What is time complexity?
+DSA,Explain binary search
+DSA,What is stack?
+DSA,What is linked list?
+DSA,Explain recursion
+
+Statistics,What is mean median mode?
+Statistics,What is standard deviation?
+Statistics,Explain probability
+Statistics,What is hypothesis testing?
+Statistics,What is correlation?

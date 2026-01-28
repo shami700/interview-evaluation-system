@@ -1,0 +1,45 @@
+Role_Name,Topic,Weight
+Frontend Developer,Frontend,0.40
+Frontend Developer,Computer Networks,0.15
+Frontend Developer,Operating System,0.15
+Frontend Developer,DSA,0.30
+
+Backend Developer,Backend,0.40
+Backend Developer,Database,0.25
+Backend Developer,Operating System,0.15
+Backend Developer,DSA,0.20
+
+MERN Stack Developer,Frontend,0.30
+MERN Stack Developer,Backend,0.30
+MERN Stack Developer,Database,0.20
+MERN Stack Developer,DSA,0.20
+
+Python Developer,Python,0.40
+Python Developer,DSA,0.30
+Python Developer,Database,0.15
+Python Developer,Computer Networks,0.15
+
+Java Developer,Java,0.40
+Java Developer,DSA,0.30
+Java Developer,Operating System,0.15
+Java Developer,Database,0.15
+
+Data Scientist,Python,0.30
+Data Scientist,Statistics,0.30
+Data Scientist,Machine Learning,0.25
+Data Scientist,DSA,0.15
+
+AI/ML Engineer,Python,0.25
+AI/ML Engineer,Machine Learning,0.35
+AI/ML Engineer,Deep Learning,0.25
+AI/ML Engineer,DSA,0.15
+
+DevOps Engineer,DevOps,0.40
+DevOps Engineer,Cloud,0.30
+DevOps Engineer,Operating System,0.15
+DevOps Engineer,Networking,0.15
+
+Cloud Engineer,Cloud,0.45
+Cloud Engineer,DevOps,0.25
+Cloud Engineer,Networking,0.15
+Cloud Engineer,Operating System,0.15

@@ -1,11 +1,8 @@
 Student_ID,Final_Score,ML_Decision,Role,Student_Name,Interviewer_Notes
-
-
-Student_ID,Student_Name,Role,Final_Score,Interviewer_Notes
-112,Shami,Frontend Developer,100.0,
-101,Md Shami,Frontend Developer,85.0,
-2341016359,Anurag Pradhan,AI/ML Engineer,70.0,Good candidate
-555,Ankit,Data Scientist,65.0,Good
-45,Pratyush,Frontend Developer,62.5,Good candidate
-700,Amul,Frontend Developer,57.5,
-1125,Aly,Frontend Developer,50.0,
+101,100.0,,Frontend Developer,Shami,
+102,85.0,,Frontend Developer,Md Shami,
+103,70.0,,AI/ML Engineer,Anurag Pradhan,Good candidate
+104,65.0,,Data Scientist,Ankit,Good
+105,62.5,,Frontend Developer,Pratyush,Good candidate
+106,57.5,,Frontend Developer,Amul,
+107,50.0,,Frontend Developer,Aly,
